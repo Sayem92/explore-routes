@@ -11,7 +11,7 @@ const Header = () => {
                 <Link to='/friends'>Friends</Link>
                 <Link to='/about'>About </Link>
             </nav>
-            <p>Common Page</p>
+            <p>Common Header</p>
             
         </div>
     );
