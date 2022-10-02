@@ -14,9 +14,9 @@ const Post = ({post}) => {
         <div className='post'>
             <h3>Title: {title}</h3>
             <p>{body}</p>
-            <Link to={`/post/${id}`}>Visit:{id}</Link>
+            <Link to={`/post/${id}`}>Visit: {id}</Link>
            <Link to={`/post/${id}`}> <button>Show Details</button> </Link>
-           
+
            <button onClick={handlerNavigate}>Show Details 2</button>
         </div>
     );
